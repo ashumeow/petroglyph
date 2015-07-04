@@ -5,7 +5,9 @@ Petroglyph
 Petroglyph is a Python-based static blog generator. (Tested on 2.7.6).
 
 ## Installation
-<b>For Linux/Ubuntu/Fedora users:</b><br>
+***
+<b>For Linux/Ubuntu/Fedora users:</b>
+***
 Petroglyph is now a pip package! You can install petroglyph by simply doing:
 ```sh
 $ sudo pip install petroglyph
@@ -17,7 +19,9 @@ If you don't have `pip`, first install pip using your package manager.
 $ sudo apt-get install python-pip #Ubuntu, etc.
 $ sudo yum install python-pip #Fedora, etc.
 ```
+***
 <b>For Windows Users:</b>
+***
 ```sh
 $ pip install petroglyph
 ```
