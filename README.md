@@ -1,73 +1,9 @@
 Petroglyph
 ==========
 [![Build Status](https://travis-ci.org/polybuildr/petroglyph.svg?branch=master)](https://travis-ci.org/polybuildr/petroglyph)
-
+***
 Petroglyph is a Python-based static blog generator. (Tested on 2.7.6).
-
-## Installation
 ***
-<b>For Linux/Ubuntu/Fedora users:</b>
-***
-Petroglyph is now a pip package! You can install petroglyph by simply doing:
-```sh
-$ sudo pip install petroglyph
-```
-
-If you don't have `pip`, first install pip using your package manager.
-
-```sh
-$ sudo apt-get install python-pip #Ubuntu, etc.
-$ sudo yum install python-pip #Fedora, etc.
-```
-***
-<b>For Windows Users:</b>
-***
-```sh
-$ pip install petroglyph
-```
-or
-```sh
-$ easy_install petroglyph
-```
-If installing from `pip` doesn't work for you, please [file an issue](https://github.com/polybuildr/petroglyph/issues) and then use the old installation instructions below instead.
-
-### Old installation procedure
-
-To install, first install `mistune`, `pyyaml` and `docutils`.
-
-```sh
-$ pip install mistune pyyaml docutils
-```
-
-If you don't have `pip`, first install pip using your package manager.
-
-```sh
-$ sudo apt-get install python-pip #Ubuntu, etc.
-$ sudo yum install python-pip #Fedora, etc.
-```
-
-If `pip` fails to install `pyyaml` (check for the line `Successfully installed pyyaml` in the output), then you can use your package manager to install `pyyaml`.
-
-```sh
-$ sudo apt-get install python-yaml #Ubuntu, etc.
-$ sudo yum install PyYAML #Fedora, etc.
-```
-
-Next, install petroglyph. Petroglyph is currently not available as a pip package, so you'll have to install it manually.
-
-You can download a [stable release from GitHub](https://github.com/polybuildr/petroglyph/releases) or clone from master.
-
-There is a script named `petroglyph` in the folder, this is the script you will use to set up your blog. Consider putting this in your `PATH` for ease of use.
-
-On Linux, if using `bash`, you can add a line to your `.bashrc` to do this.
-
-```sh
-$ echo 'export PATH="/path/to/petroglyph:$PATH"' >> ~/.bashrc
-$ source ~/.bashrc
-```
-
-Depending on your setup, this could be a different file, such as `~/.profile` or `~/.bash_profile`.
-
 ## Setting up a blog
 
 1. Create a new directory for your blog.
@@ -129,4 +65,4 @@ Depending on your setup, this could be a different file, such as `~/.profile` or
   > If you ever want to regenerate all your pages (because of a theme change, for example), run `petroglyph --regenerate`.
 
 6. Your blog is ready to be served in the `blog/` directory.
-  ![](http://polybuildr.github.io/petroglyph/screenshot.gif)
+  ![](https://github.com/ashumeow/petroglyph/blob/gh-pages/screenshot.gif)
